@@ -1,22 +1,48 @@
-# 🌦️ SkyCast Weather Dashboard
+🌦️ Weather Forecast Application
+A simple and modern Weather Forecast Web Application built using HTML, Tailwind CSS, and JavaScript.
+This project allows users to search for any city and view real-time weather information using Open-Meteo APIs (no API key required).
 
-SkyCast is a modern, responsive weather forecasting application built to satisfy the JavaScript Internship assignment requirements (200 marks).
+This project is created for academic / internship submission and follows real-world development practices.
 
-## ✨ Key Features
-- **Dynamic Search**: Find weather by city name or use your current geolocation.
-- **5-Day Outlook**: Visually organized cards showing detailed daily data.
-- **Persistent History**: Saves your last 5 searches using browser LocalStorage.
-- **Smart UI**: Background switches to a dark "Rainy Mode" theme during storms.
-- **Unit Control**: Quick toggle between Celsius and Fahrenheit for today's data.
+📌 Project Description
+The Weather Forecast Application fetches and displays current weather data such as temperature, wind speed, date, and location.
+It uses a geocoding API to convert city names into coordinates and then retrieves weather data based on those coordinates.
 
-## 🚀 Setup & Usage
-1. Clone this repository.
-2. Register for a free API key at [OpenWeatherMap](https://openweathermap.org/).
-3. Paste your key into the `API_KEY` constant in `script.js`.
-4. Open `index.html` in any browser (Chrome/Edge/Safari).
+The focus of this project is:
 
-## 📱 Responsiveness
-This project is tested and optimized for:
-- **iPhone SE** (Mobile View)
-- **iPad Mini** (Tablet View)
-- **Desktop** (Wide View)
+API integration
+
+Clean UI design
+
+Error handling
+
+User-friendly experience
+
+🚀 Features
+🔍 Search weather by city name
+
+🌍 Automatic city-to-location (geocoding)
+
+🌡️ Displays current temperature
+
+💨 Wind speed information
+
+🕒 Shows current date and time
+
+🎨 Responsive and modern UI using Tailwind CSS
+
+⚡ No API key required
+
+🛠️ Technologies Used
+HTML5 – Page structure
+
+Tailwind CSS (CDN) – Styling and layout
+
+JavaScript (ES6) – Application logic
+
+Open-Meteo Weather API – Weather data
+
+Open-Meteo Geocoding API – City search
+
+Git & GitHub – Version control
+
